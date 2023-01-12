@@ -1,11 +1,41 @@
 body{
-  background-image: url(maffing.jpg);
+  background-image: url(maffin.jpg);
   background-size: cover;
 }
+h1{
+  background-color: white;
+}
+ul li{
+background-color: black;
+border: 1px solid pink;
+}
+ul li::marker {
+  content: '🧔🏾';
+}
+
+ul li:hover::marker {
+  content: '🤯';
+}
+li {
+  padding-left: 12px;
+  cursor: pointer;
+}
+
+li:nth-child(odd) {
+  color: #ff6000;
+}
+li:nth-child(even) {
+  color: green;
+}
+p{
+	background-color: white;
+}
+
+
 
 h2{
   color: hotpink; 
   background-color: black;
-  text-align: center;
-	border: 5px solid purple;
+  text-align: left;
+border: 5px solid purple;
 }
